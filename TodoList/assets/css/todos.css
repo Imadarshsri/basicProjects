@@ -1,0 +1,93 @@
+body {
+  font-family: Roboto;
+  background: #C6FFDD;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Html Tags */
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  font-weight: normal;
+  background: #2980b9;
+  text-transform: uppercase;
+}
+
+input {
+  width: 100%;
+  font-size: 18px;
+  color: #2980b9;
+  background: #f7f7f7;
+  box-sizing: border-box;
+  padding: 13px 13px 13px 20px;
+  border: 3px rgba(0, 0, 0, 0);
+}
+
+input:focus {
+  outline: none;
+  background: #fff;
+  border: 2px solid #2980b9;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  height: 40px;
+  color: #666;
+  background: #fff;
+}
+
+/* new */
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1.0;
+}
+
+span {
+  width: 0;
+  opacity: 0;
+  height: 30px;
+  color: white;
+  padding-top: 10px;
+  margin-right: 20px;
+  text-align: center;
+  background: #e74c3c;
+  display: inline-block;
+  transition: 0.2s linear;
+}
+
+/* Classes and Ids */
+#container {
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.fa-plus {
+  float: right;
+}
+
+.fa-minus {
+  float: right;
+}
